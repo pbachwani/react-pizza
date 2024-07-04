@@ -7,7 +7,7 @@ function DeleteItem({ pizzaId }) {
 
   return (
     <Button type="small" onClick={() => dispatch(deleteItem(pizzaId))}>
-      Delete
+      <img src="public\icons8-delete-16.png" />
     </Button>
   );
 }
