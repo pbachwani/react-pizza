@@ -7,7 +7,8 @@ function DeleteItem({ pizzaId }) {
 
   return (
     <Button type="small" onClick={() => dispatch(deleteItem(pizzaId))}>
-      <img src="public\icons8-delete-16.png" />
+      {/* <img src="public\icons8-delete-16.png" /> */}
+      <i className="ri-delete-bin-line"></i>
     </Button>
   );
 }
